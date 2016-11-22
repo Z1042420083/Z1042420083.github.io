@@ -12,6 +12,7 @@
 	body { -webkit-touch-callout: none; -webkit-text-size-adjust: none; -webkit-user-select: none; -webkit-highlight: none; -webkit-tap-highlight-color: rgba(0,0,0,0); }
 </style>
 <script type="application/javascript" src="../lib/fastclick.js"></script>
+<script type="text/javascript" src="jq-chajian.min.js"></script>
 <script type="application/javascript">
 	window.addEventListener('load', function() {
 		var testA, testB, teTime, cTime;
@@ -27,12 +28,20 @@
 			document.getElementById('te-time').value = teTime;
 		}, false);
 
-		testA.addEventListener('click', function(event) {
+		// testA.addEventListener('click', function(event) {
+		// 	cTime = Date.now();
+		// 	document.getElementById('c-time').value = cTime;
+		// 	document.getElementById('d-time').value = cTime - teTime;
+		// 	testA.style.backgroundColor = testA.style.backgroundColor ? '' : 'YellowGreen';
+		// }, false);
+		console.log(testA);
+		$(testA).on('click', function () {
+			console.log('aaaa');
 			cTime = Date.now();
 			document.getElementById('c-time').value = cTime;
 			document.getElementById('d-time').value = cTime - teTime;
 			testA.style.backgroundColor = testA.style.backgroundColor ? '' : 'YellowGreen';
-		}, false);
+		});
 
 		testB.addEventListener('touchend', function(event) {
 			teTime = Date.now();
