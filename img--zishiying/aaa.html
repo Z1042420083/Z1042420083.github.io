@@ -10,69 +10,44 @@
 			margin: 0;
 			padding: 0;
 		}
-		html, body {
-			height: 100%;
-		}
-		html {
+		/*html {
 		  	height:100%;
 		}
 		body {
 		  	background: url(xiao.gif) no-repeat;
-		  	/*background: url(200492573344189462.jpg) center center;*/
 		  	background-size: 100%;
 		  	background-position: center;
 		  	min-height:100%;
 		  	height:auto !important;
 		  	height:100%;
-		}
-		/*.div1 {
+		}*/
+		html, body {
 			width: 100%;
 			height: 100%;
-			padding: 10px;
-			box-sizing: border-box;
-		    background-image: url('xiao.gif') no-repeat fixed center;
-		    position: absolute;
+		}
+		.div1 {
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		img {
+			width: auto;
+			max-width: 100%;
+			height: auto;
+			max-height: 100%;
+			position: absolute;
 		    left: 0;
 		    top: 0;
 		    right: 0;
 		    bottom: 0;
 		    margin: auto;
 		    z-index: 999;
-		}*/
-		/*img {
-			width: auto;
-			height: auto;
-			max-height: 100%;
-		}*/
+		}
 	</style>
 </head>
 <body>
 	<div class="div1">
-		<!-- <img src="xiao.gif" alt=""> -->
+		<img src="xiao.gif" alt="">
 	</div>
 </body>
-<script type="text/javascript">
-	function resizeimg(obj,maxW,maxH)
-	{
-	         var imgW=obj.width;
-	         var imgH=obj.height;
-	         if(imgW>maxW||imgH>maxH)
-	         {
-	                  var ratioA=imgW/maxW;
-	                  var ratioB=imgH/maxH;
-	                  if(ratioA>ratioB)
-	                  {
-	                           imgW=maxW;
-	                           imgH=maxW*(imgH/imgW);
-	                  }
-	                  else
-	                  {
-	                           imgH=maxH;
-	                           imgW=maxH*(imgW/imgH);
-	                  }
-	                  obj.width=imgW;
-	                  obj.height=imgH;
-	         }
-	}
-</script>
 </html>
