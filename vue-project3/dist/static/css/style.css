@@ -1,0 +1,547 @@
+html, body, .login-container, .gift-container {
+	width: 100%;
+	/*height: 1136px;*/
+	height: 100%;
+}
+i.warning {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url('../images/tis.png');
+	background-size: 100% 100%;
+}
+/*加号*/
+i.jia {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background: url('../images/jia.png');
+	background-size: 100% 100%;
+}
+/*减号*/
+i.jian {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background: url('../images/jian.png');
+	background-size: 100% 100%;
+}
+/*绿空圈*/
+i.xz {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('../images/xz.png');
+	background-size: 100% 100%;
+}
+/*绿对勾*/
+i.yxz {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('../images/yxz.png');
+	background-size: 100% 100%;
+}
+/*感叹号*/
+i.wt {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url('../images/wt.png');
+	background-size: 100% 100%;
+}
+.red {
+	color: #ea3a2e;
+}
+/*登录并查看礼物*//*START*/
+.login-container {
+	background: url('../images/dlbg.png');
+	background-size: 100% 100%;
+	padding-top: 105px;
+	box-sizing: border-box;
+	position: relative;
+}
+.login-content {
+	height: 500px;
+	margin: 0 60px 208px 60px;
+	background: rgba(255,255,255,0.65);
+	border-radius: 10px;
+	padding: 52px 26px 48px 26px;
+}
+.login-content-c input {
+	width: 100%;
+	font-size: 30px;
+	color: #bcbcbc;
+}
+.login-content h2 {
+	text-align: center;
+	font-size: 36px;
+	color: #6d9ff3;
+}
+.phone-div {
+	width: 466px;
+	height: 88px;
+	border-radius: 10px;
+	padding: 29px 22px;
+	margin: 36px 0 15px 0;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+.prompt {
+	font-size: 18px;
+	color: #7f7f7f;
+
+	display: box;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-o-align-items: center;
+    align-items: center;
+}
+.prompt span {
+	margin-left: 8px;
+}
+.code-div {
+	width: 466px;
+	height: 88px;
+	border-radius: 10px;
+	padding: 15px 15px 15px 22px;
+	margin: 9px 0 38px 0;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+.code-div > div {
+	width: 260px;
+	height: 58px;
+	padding: 14px 0;
+	box-sizing: border-box;
+}
+.grab-code {
+	width: 160px;
+	height: 58px;
+	line-height: 58px;
+	border-radius: 10px;
+	text-align: center;
+	background: #59bce9;
+	font-size: 22px;
+	color: #ffffff;
+}
+.login-content button {
+	width: 466px;
+	height: 88px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 88px;
+	background: #6d9ff3;
+	font-size: 36px;
+	color: #ffffff;
+}
+.login-footer {
+	position: absolute;
+	left: 50%;
+	margin-left: -84px;
+	bottom: 88px;
+}
+.login-footer img {
+	width: 168px;
+	margin: 0 auto;
+}
+/*登录并查看礼物*//*END*/
+
+
+
+
+/*收取礼物*//*START*/
+.erweima {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	opacity: 0;
+	display: none;
+}
+.gift-container {
+	background: url('../images/sqbg-01.png');
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	position: relative;
+	padding: 575px 0 0 188px;
+}
+.gift-container .bg-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.gift-container-t {
+	color: #7f7f7f;
+	position: absolute;
+	left: 166px;
+	top: 36px;
+	z-index: 5;
+}
+.gift-container-t h4 {
+	font-size: 36px;
+	margin-bottom: 24px;
+}
+.product figure {
+	width: 155px;
+	margin-right: 22px;
+}
+.product > div {
+	margin-top: 4px;
+}
+.product > div h6 {
+	font-size: 24px;
+	margin-bottom: 36px;
+}
+.product > div span {
+	font-size: 28px;
+}
+.gift-container-c {
+	width: 543px;
+	font-size: 30px;
+	color: #687285;
+	padding: 64px 45px 20px 45px;
+	box-sizing: border-box;
+	background: url('../images/zfbg(1).png');
+	background-size: 100% 100%;
+	position: absolute;
+	left: 52px;
+	top: 321px;
+	z-index: 5;
+	transform-origin: 0% 0%;
+	transform: rotateZ(-5deg);
+}
+.gift-container-c p {
+	margin-bottom: 67px;
+}
+.autograph > span {
+	min-width: 100px;
+	margin-right: 25px;
+}
+.autograph figure {
+	width: 103px;
+	margin: 0 18px 0 0;
+}
+.gift-container-b {
+	position: absolute;
+	left: 188px;
+	top: 620px;
+	z-index: 15;
+}
+.gift-container-b .distinguish {
+	width: 371px;
+}
+.gift-container-b .bar-code {
+	margin: 3px 0 0 92px;
+}
+.gift-container-b .bar-code figure {
+	width: 190px;
+	margin-bottom: 10px;
+}
+.gift-container-b .bar-code h5 {
+	width: 190px;
+    text-align: center;
+	font-size: 26px;
+	color: #878787;
+}
+/*收取礼物*//*END*/
+
+
+
+/*选择送出卡片*//*START*/
+.select-container {
+	width: 100%;
+	height: 100%;
+	background: #bfd2f3;
+	padding: 25px 28px 0 28px;
+	box-sizing: border-box;
+}
+.select-container-c {
+	width: 100%;
+	padding: 20px 20px 28px 20px;
+	margin-bottom: 35px;
+	border-radius: 20px;
+	background: #f2f7ff;
+	box-sizing: border-box;
+}
+.select-total, .select-money {
+	width: 100%;
+	height: 88px;
+	
+	margin-bottom: 20px;
+	padding: 25px 32px 21px 20px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	font-size: 32px;
+	color: #000000;
+}
+.select-total-l {
+	line-height: 42px;
+}
+.select-total-num {
+	width: 40px;
+	text-align: center;
+	margin: 0 30px;
+	font-size: 40px;
+	color: #009cff;
+	line-height: 40px;
+}
+.select-money-num {
+	margin-right: 20px;
+	font-size: 40px;
+	color: #009cff;
+}
+.select-people {
+	width: 100%;
+	height: 162px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	padding: 26px 20px;
+	box-sizing: border-box;
+	font-size: 26px;
+	color: #acacac;
+}
+.select-people ul:nth-child(1) {
+	margin-bottom: 30px;
+}
+.select-people .select-people-l {
+	margin-left: 15px;
+	font-size: 32px;
+	color: #000000;
+}
+.select-people b {
+	color: #009cff;
+}
+.select-blessing {
+	width: 100%;
+	height: 172px;
+	line-height: 43px;
+	margin-bottom: 48px;
+	background-color: #ffffff;
+	padding: 16.5px 20px 25px 20px;
+	box-sizing: border-box;
+	font-size: 28px;
+	color: #acacac;
+}
+.select-blessing-l {
+	color: #000000;
+}
+.select-blessing-t {
+	margin-bottom: 16.5px;
+}
+.select-blessing-b span {
+	font-size: 24px;
+	color: #6d9ff3;
+	line-height: 1;
+	text-decoration: underline;
+}
+.select-preview {
+	width: 100%;
+	height: 80px;
+	/*padding: 16.5px 20px 25px 20px;*/
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #acacac;
+}
+.select-preview ul {
+	margin-top: 22.5px;
+}
+.select-preview ul li:nth-child(2) {
+	width: 370px;
+	margin-left: 10px;
+}
+.select-preview-c {
+	width: 118px;
+	height: 80px;
+}
+.select-preview-c img {
+	width: 100%;
+}
+.select-next img {
+	width: 100%;
+}
+/*选择送出卡片*//*END*/
+
+
+
+
+/*选择送出卡片预览*//*START*/
+.preview-container {
+	width: 100%;
+	height: 100%;
+	background: #6ea6d8;
+	padding: 20px 28px 0 28px;
+	box-sizing: border-box;
+}
+.preview-nickname {
+	width: 350px;
+	height: 600px;
+	background: url('../images/wxbg.png');
+	background-size: 100% 100%;
+	position: relative;
+}
+.preview-nickname-c {
+	position: absolute;
+	left: 15px;
+	top: 82px;
+}
+.preview-nickname-cl {
+	width: 45px;
+	height: 45px;
+}
+.preview-nickname-cl img {
+	width: 100%;
+}
+.preview-nickname-cr {
+	width: 270px;
+	height: 127px;
+	margin-left: 5px;
+	padding: 15px 10px 0 25px;
+	box-sizing: border-box;
+	background: url('../images/ggy.png');
+	background-size: 100% 100%;
+	font-size: 16px;
+}
+.preview-nickname-cr h5 {
+	font-weight: normal;
+	color: #000000;
+}
+.preview-nickname-crc {
+	margin-top: 12px;
+}
+.preview-nickname-crc p {
+	width: 180px;
+	color: #777777;
+	line-height: 19px;
+	margin-top: 7px;
+}
+.preview-nickname-crc figure {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #c0c0c0;
+	box-sizing: border-box;
+	border-radius: 7px;
+	position: relative;
+}
+.preview-nickname-crc figure img {
+	width: 45px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.preview-collect {
+	width: 350px;
+	height: 600px;
+	position: absolute;
+	right: 28px;
+	top: 250px;
+	background: url('../images/sqlwbg.png');
+	background-size: 100% 100%;
+}
+.preview-collect b {
+	color: #ea3a2e;
+}
+.preview-collect-t {
+	position: absolute;
+	left: 83px;
+	top: 70px;
+	color: #777777;
+}
+.preview-collect-t b {
+	font-size: 18px;
+}
+.preview-collect-tc {
+	margin-top: 10px;
+}
+.preview-collect-tcl {
+	width: 86px;
+	height: 55px;
+}
+.preview-collect-tcl img {
+	width: 100%;
+}
+.preview-collect-tcr {
+	margin-left: 10px;
+	
+}
+.preview-collect-tcr h6 {
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 6px;
+}
+.preview-collect-tcr div {
+	font-size: 16px;
+	margin-top: 16px;
+}
+.preview-collect-c {
+	width: 296px;
+	height: 140px;
+	background: url('../images/kuang.png');
+	background-size: 100% 100%;
+	position: absolute;
+	left: 29px;
+	top: 224px;
+	color: #687285;
+	transform-origin: 0% 0%;
+    transform: rotateZ(-5deg);
+}
+.preview-collect-c p {
+	font-size: 20px;
+	padding: 17px 22px 5px 22px;
+	line-height: 30px;
+}
+.preview-collect-from {
+	width: 57px;
+	margin: 0 5px 0 120px;
+}
+.preview-collect-b {
+	width: 204px;
+	height: 194px;
+	position: absolute;
+	left: 100px;
+	top: 380px;
+}
+.preview-collect-b img {
+	width: 100%;
+}
+.preview-introduce {
+	line-height: 43px;
+	font-size: 26px;
+	color: #ffffff;
+	position: absolute;
+	left: 50px;
+	top: 658px;
+}
+.preview-btns {
+	position: absolute;
+	left: 50px;
+	bottom: 46px;
+}
+.preview-edit-btn, .preview-send-btn {
+	width: 240px;
+	height: 88px;
+	line-height: 88px;
+	text-align: center;
+	background: #558ff3;
+	border-radius: 10px;
+	font-size: 32px;
+	color: #ffffff;
+}
+.preview-send-btn {
+	margin-left: 60px;
+}
+/*选择送出卡片预览*//*END*/

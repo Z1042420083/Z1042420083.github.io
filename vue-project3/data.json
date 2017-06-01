@@ -1,0 +1,96 @@
+{
+	"goodsinfo": {
+        "pics": [
+            {
+            	"pic": "images/xiaoshu.png",
+            	"goUrl": "aaa"
+            },
+            {
+            	"pic": "images/zhishu.png",
+            	"goUrl": "aaa"
+            },
+            {
+            	"pic": "images/xiaoshu.png",
+            	"goUrl": "aaa"
+            },
+            {
+            	"pic": "images/zhishu.png",
+            	"goUrl": "aaa"
+            }
+        ],
+        "currCityName": "北京",
+        "sales":[
+            {
+                "brandId": "zihexin",
+                "pic": "images/weipinhui.png",
+                "brandName": "资和信",
+                "goodsList":[
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    },
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    },
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    },
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    }
+                ]
+            },
+            {
+                "brandId": "zihexin",
+                "pic": "images/weipinhui.png",
+                "brandName": "资和信",
+                "goodsList":[
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    },
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    },
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    },
+                    {
+                        "goodsId": "weipinhui",
+                        "goodsName": "唯品会",
+                        "pic": "images/weipinhui.png",
+                        "salePrice": "100.00",
+                        "oldPrice": "1000.00"
+                    }
+                ]
+
+            }
+        ]
+    }
+}
