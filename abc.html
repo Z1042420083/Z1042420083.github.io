@@ -5,8 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
   <link rel="stylesheet" href="">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
 </head>
-<body>
-  <input type="file" name="">
-</body>
+<style>#video {display: block;margin:1em auto;width:180px;height:180px;}</style>    
+<video id="video" autoplay></video>  
+<script>  
+    window.addEventListener("DOMContentLoaded", function () {  
+        var video = document.getElementById("video"), canvas, context;  
+        try {  
+            canvas = document.createElement("canvas");  
+            context = canvas.getContext("2d");  
+        } catch (e) { alert("not support canvas!"); return; }  
+        navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;  
+  
+  
+        if (navigator.getUserMedia)  
+            navigator.getUserMedia(  
+                { "video": true },  
+                function (stream) {  
+                    if (video.mozSrcObject !== undefined)video.mozSrcObject = stream;  
+                    else video.src = ((window.URL || window.webkitURL || window.mozURL || window.msURL) && window.URL.createObjectURL(stream)) || stream;                 
+                    video.play();  
+                },  
+                function (error) {  
+                    //if(error.PERMISSION_DENIED)console.log("用户拒绝了浏览器请求媒体的权限",error.code);  
+                    //if(error.NOT_SUPPORTED_ERROR)console.log("当前浏览器不支持拍照功能",error.code);  
+                    //if(error.MANDATORY_UNSATISFIED_ERROR)console.log("指定的媒体类型未接收到媒体流",error.code);  
+                    alert("Video capture error: " + error.code);  
+                }  
+            );  
+        else alert("Native device media streaming (getUserMedia) not supported in this browser");  
+         
+  
+  
+  
+  
+    }, false);  
+ </script>   
 </html>
